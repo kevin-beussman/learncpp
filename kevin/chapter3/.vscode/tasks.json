@@ -2,7 +2,7 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"type": "cppbuild",
+			"type": "shell",
 			"label": "Release build",
 			"command": "/opt/homebrew/bin/g++-11",
 			"args": [
@@ -27,7 +27,7 @@
 			"detail": "compiler: /opt/homebrew/bin/g++-11"
 		},
 		{
-			"type": "cppbuild",
+			"type": "shell",
 			"label": "Debug build",
 			"command": "/opt/homebrew/bin/g++-11",
 			"args": [
@@ -48,7 +48,7 @@
 			],
 			"group": {
 				"kind": "build",
-				"isDefault": true
+				"isDefault": false
 			},
 			"detail": "compiler: /opt/homebrew/bin/g++-11"
 		}
