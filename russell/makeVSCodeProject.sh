@@ -42,4 +42,4 @@ then
 fi
 
 mkdir $name
-cp -r HelloWorldMultifile/.vscode $name
+cp -r test20220804b/.vscode $name
