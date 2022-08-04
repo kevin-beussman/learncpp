@@ -8,7 +8,7 @@
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/kevin/chapter2/quiz/main",
+            "program": "${workspaceFolder}/q1",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
