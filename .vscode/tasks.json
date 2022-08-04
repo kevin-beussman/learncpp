@@ -32,6 +32,7 @@
 			"command": "/opt/homebrew/bin/g++-11",
 			"args": [
 				"-std=c++17",
+				"-O0",
 				"-fdiagnostics-color=always",
 				"-g",
 				// "${file}",
