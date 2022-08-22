@@ -9,7 +9,6 @@
 				"-std=c++17",
 				"-O3",
 				"-fdiagnostics-color=always",
-				// "${file}",
 				"${fileDirname}/*.cpp",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
@@ -35,7 +34,6 @@
 				"-O0",
 				"-fdiagnostics-color=always",
 				"-g",
-				// "${file}",
 				"${fileDirname}/*.cpp",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
