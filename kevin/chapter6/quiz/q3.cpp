@@ -4,7 +4,7 @@ bool passOrFail()
 {
     static int times_run { 0 };
     ++times_run;
-    return (times_run < 4)
+    return (times_run < 4);
 }
 
 int main()
