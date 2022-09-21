@@ -50,8 +50,7 @@ public:
 
     void print() const
     {
-        std::cout << getTypeString();
-        // std::cout << m_name << " the " << getTypeString() << " has " << m_hp << " hit points and says " << m_roar << "\n";
+        std::cout << m_name << " the " << getTypeString() << " has " << m_hp << " hit points and says " << m_roar << "\n";
     }
 };
 
@@ -64,7 +63,7 @@ private:
 public:
     static Monster generateMonster()
     {
-        return Monster(static_cast<Monster::Type>(getRandomNumber(0, static_cast<int>(Monster::Type::max_monster_types))), 
+        return Monster(static_cast<Monster::Type>(getRandomNumber(0, static_cast<int>(Monster::Type::max_monster_types) - 1)), 
             s_names[getRandomNumber(0, 5)], s_roars[getRandomNumber(0, 5)], getRandomNumber(1, 100));
     }
 
